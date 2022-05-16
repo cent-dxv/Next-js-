@@ -2,7 +2,8 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 ## In This Example 
 senarios 1 , 2 , 3: file base route 
-simply creat file its automaticaly be routed 
+    :simply creat file its automaticaly be routed 
+    :404.js
 
 senarios 4 : routing to spacific page details
  create [productId].js
@@ -24,3 +25,8 @@ senarios 6 : catch all Routes
             : const { params } = router.query;
             : console.log(params);
 
+#navigatuion 
+    :  <Link href="/blog">
+    :  <a > blog</a>
+    :  </Link> 
+    : route.replace('/blog') / push
