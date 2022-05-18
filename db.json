@@ -1,0 +1,140 @@
+{
+  "news": [
+    {
+      "id": 1,
+      "title": "News Article 1",
+      "description": "loremTempor ex exercitation proident quis ipsum minim commodo qui. Quis fugiat laboris nostrud occaecat minim eiusmod officia consequat officia labore adipisicing tempor occaecat minim. Id eu mollit aliqua culpa mollit nisi Lorem magna. Irure adipisicing quis voluptate eiusmod elit. Aliquip aliquip id dolor laborum non. Consequat esse Lorem culpa mollit labore reprehenderit ut eu eu enim excepteur enim excepteur elit. Pariatur pariatur voluptate aliqua amet eiusmod duis.",
+      "category": "sports"
+    },
+    {
+      "id": 2,
+      "title": "News Article 2",
+      "description": "Quis eu commodo dolor cillum officia pariatur commodo tempor velit elit est magna pariatur sint.",
+      "category": "politics"
+    },
+    {
+      "id": 3,
+      "title": "spinder",
+      "description": "Description 3",
+      "category": "sports"
+    },
+    {
+      "id": 4,
+      "title": "a crypto market is boom today",
+      "description": " no need Description simply go buy some ",
+      "category": "sports"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "dog food",
+      "author": "200",
+      "type": "hardcover",
+
+      "category": "business"
+    },
+    {
+      "id": 2,
+      "name": "conditioner alivera ",
+      "author": " 20$",
+      "type": "hardcover",
+
+      "category": "business"
+    },
+    {
+      "id": 3,
+      "name": "milk poweder",
+      "author": " 400$",
+      "type": "hardcover",
+
+      "category": "business"
+    },
+    {
+      "id": 4,
+      "name": "fresh cat fish  ",
+      "author": "100$",
+      "type": "dcover",
+
+      "category": "business"
+    }
+  ],
+  "dashboard": {
+    "posts": 7,
+    "likes": 100,
+    "followers": 20,
+    "following": 50
+  },
+  "events": [
+    {
+      "id": 1,
+      "title": "Event 1",
+      "description": "Description 1",
+      "category": "sports",
+      "date": "April 25"
+    },
+    {
+      "id": 2,
+      "title": "Event 2",
+      "description": "Description 2",
+      "category": "technology",
+      "date": "May 25"
+    },
+    {
+      "id": 3,
+      "title": "Event 3",
+      "description": "Description 3",
+      "category": "food",
+      "date": "October 25"
+    },
+    {
+      "id": 4,
+      "title": "Event 4",
+      "description": "Description 4",
+      "category": "food",
+      "date": "April 25"
+    },
+    {
+      "id": 5,
+      "title": "Event 5",
+      "description": "Description 5",
+      "category": "sports",
+      "date": "January 15"
+    },
+    {
+      "id": 6,
+      "title": "Event 6",
+      "description": "Description 6",
+      "category": "art",
+      "date": "April 25"
+    },
+    {
+      "id": 7,
+      "title": "Event 7",
+      "description": "Description 7",
+      "category": "technology",
+      "date": "June 25"
+    },
+    {
+      "id": 8,
+      "title": "Event 8",
+      "description": "Description 8",
+      "category": "sports",
+      "date": "February 28"
+    },
+    {
+      "id": 9,
+      "title": "Event 9",
+      "description": "Description 9",
+      "category": "food",
+      "date": "April 25"
+    },
+    {
+      "id": 10,
+      "title": "Event 10",
+      "description": "Description 10",
+      "category": "sports",
+      "date": "August 5"
+    }
+  ]
+}
