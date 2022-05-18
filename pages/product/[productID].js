@@ -2,9 +2,11 @@ import { useRouter } from "next/router";
 
 export async function getStaticProps(Context) {
   const { params } = Context;
-  const responce = await fetch(`http://localhost:4000/products/${params.productID}`);
+  const responce = await fetch(
+    `http://localhost:4000/products/${params.productID}`
+  );
   const data = await responce.json();
-  console.log( ' data ois ' + data.name);
+  console.log(" rendering detial product");
   if (!data.id) {
     return { notFound: true };
   }
@@ -12,8 +14,8 @@ export async function getStaticProps(Context) {
   return {
     props: {
       product: data,
-      
     },
+    revalidate: 5,
   };
 }
 
@@ -56,7 +58,7 @@ const ProductDetails = ({ product }) => {
   }
   return (
     <div>
-      <h1>cart product  details</h1>
+      <h1>cart product details</h1>
       <h3> {product.name}</h3>
       <p> {product.author}</p>
     </div>
